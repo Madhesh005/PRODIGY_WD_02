@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsla(269, 49%, 49%, 0.959);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto mono', monospace;
+}
+
+.stopwatch{
+    padding: 15px 45px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    background-color: rgb(251, 241, 241);
+    border-radius: 5px;
+}
+
+/*Stopwatch Display*/
+.timedisplay{
+    position: relative;
+    width: 92%;
+    background-color: white;
+    left: 4%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 20px;
+    color: #8c52ff;
+}
+
+/*Stopwatch Controls*/
+.buttons{
+    padding: 20px;
+    position: relative;
+    left: 5%;
+}
+
+#start, #pause, #reset{
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reset{
+    background-color: rgb(224, 224, 55);
+}
+
+#pause{
+    background-color: rgb(202, 15, 15);
+}
+
+#start{
+    background-color: hsl(269, 76%, 46%);    
+}
+
+.buttons button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
